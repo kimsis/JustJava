@@ -1,11 +1,22 @@
-<resources>
-    <string name="app_name">Just Java</string>
-    <string name="qantity">QANTITY</string>
-    <string name="number">0</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" translatable="false">Just Java</string>
+    <string name="name_field">Name</string>
+    <string name="toppings">TOPPINGS</string>
+    <string name="whippedCream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="remove" translatable="false">-</string>
+    <string name="number" translatable="false">1</string>
+    <string name="add" translatable="false">+</string>
     <string name="order">order</string>
-    <string name="price">PRICE</string>
-    <string name="number_price">$0</string>
-    <string name="add">+</string>
-    <string name="remove">-</string>
+
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="add_whipped_cream">Add whipped cream? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+    <string name="add_chocolate">Add chocolate? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="total">Total: $<xliff:g id="price" example="10">%d</xliff:g></string>
+    <string name="thank_you">Thank you!</string>
+    <string name="subject">Order Summary for: <xliff:g id="name" example="Amy">%s</xliff:g></string>
 
 </resources>
