@@ -93,9 +93,9 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method displays the given quantity value on the screen.
      */
-    private void displayQuantity(int numberOfCoffees) {
+    private void displayQuantity(int quantity) {
         TextView quantityTextView = (TextView) findViewById(R.id.quantity_number);
-        quantityTextView.setText(numberOfCoffees);
+        quantityTextView.setText(quantity);
     }
 
 }
