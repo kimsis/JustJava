@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
      */
     public void submitOrder(View view) {
         int pricePerCoffee = 5;
-        CheckBox whippedCreamCheckBox = (CheckBox) findViewById(R.id.whipped_cream_checkbox);
+        CheckBox whippedCreamCheckBox =  findViewById(R.id.whipped_cream_checkbox);
         boolean hasWhippedCream = whippedCreamCheckBox.isChecked();
-        CheckBox chocolateCheckBox = (CheckBox) findViewById(R.id.chocolate_checkbox);
+        CheckBox chocolateCheckBox =  findViewById(R.id.chocolate_checkbox);
         boolean hasChocolate = chocolateCheckBox.isChecked();
-        EditText nameField = (EditText) findViewById(R.id.name_edit_text_view);
+        EditText nameField =  findViewById(R.id.name_edit_text_view);
         String name = nameField.getText().toString();
         int price = calculatePrice(pricePerCoffee, hasWhippedCream, hasChocolate);
         String orderSummary = createOrderSummary(price, name, hasWhippedCream, hasChocolate);
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
      * This method displays the given quantity value on the screen.
      */
     private void displayQuantity(int quantity) {
-        TextView quantityTextView = (TextView) findViewById(R.id.quantity_number);
+        TextView quantityTextView = findViewById(R.id.quantity_number);
         quantityTextView.setText(quantity);
     }
 
